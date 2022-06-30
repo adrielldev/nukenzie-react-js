@@ -1,0 +1,23 @@
+.main-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+@media screen and (max-width:767px) {
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+    }    
+}
+@media screen and (max-width:1023px) {
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+    }    
+}

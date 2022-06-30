@@ -1,0 +1,18 @@
+.container-totalMoney {
+    border: 1px solid #5B6166;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.div-valor-total{
+    display: flex;
+    justify-content: space-between;
+}
+.div-valor-total span{
+    margin-top: 25px;
+    color: #FD377E;
+}
+
+.container-totalMoney h4{
+    color: #5B6166;
+}

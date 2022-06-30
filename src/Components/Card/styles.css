@@ -1,0 +1,72 @@
+:root{
+    --c1:#FD377E;
+    --c2:#E34981;
+    --c3:#03B898;
+    --g1:#F8F9FA;
+    --g2:#E9ECEF;
+    --g3:#868E96;
+    --g4:#212529;
+
+}
+
+
+.cointaner-card-entry{
+    display: flex;
+    margin-top: 15px;
+    width: 500px; 
+    padding: 20px;
+    height: fit-content;
+    border-left: 4px solid green;
+    justify-content: space-between;
+}
+
+.cointaner-card-exit{
+    display: flex;
+    margin-top: 15px;
+    width: 500px; 
+    padding: 20px;
+    height: fit-content;
+    justify-content: space-between;
+    border-left: 4px solid red;
+}
+
+.card-titulo h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--g4);
+}
+
+.card-titulo p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--g3);
+}
+
+.card-price-button{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    margin-top: 35px;
+    width: 350px;
+}
+.card-price-button span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color:var(--g4)
+
+}
+.card-price-button button{
+    cursor: pointer;
+    border: none;
+    background-color: var(--g2);
+    border-radius: 5px;
+    transition: .5s;
+}
+.card-price-button button:hover{
+    cursor: pointer;
+    border: none;
+    background-color: red;
+}
